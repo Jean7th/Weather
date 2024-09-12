@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!--CSS-->
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1>Basic Weather App Checker</h1>
+    </header>
+    <div id="content">
+        <div id="searchArea">
+            <!-- Input field for city name -->
+            <input type="text" id="inputCity" placeholder="Enter city name">
+            <!-- Button to trigger the search -->
+            <button id="searchButton">Search</button>
+        </div>
+        
+        <!-- <div id="match-list"></div> -->
+        <div id="result">
+            <!-- Elements to display the weather information -->
+            <h2 id="cityName">----</h2>
+            <p id="temperature">----°C</p>
+            <img id="icon">
+            <p id="description">----</p>
+        </div>
+    </div>
+
+    <footer>
+        <small>Developed by Jirat Innkaew (2024)</small>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Console";
+}
+
+body {
+    background-image: url(wallpaper.jpg);
+}
+
+header {
+    text-align: center;
+    color: rgb(255, 208, 241);
+    
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 220px;
+    margin: 10%;
+    padding: 5%;
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchArea {
+    height: 2em;
+}
+
+#inputCity {
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 2px;
+}
+
+#searchButton {
+    height: 1.5rem;
+}
+
+#result {
+    margin-top: 2rem;
+    margin: 1rem;
+    padding: 1em;
+}
+
+#cityName {
+    text-transform: uppercase;
+}
+
+#description {
+    text-transform: capitalize;
+}
+
+button {
+    display: inline-block;
+    padding: 5px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #212125;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+}
+
+button:hover {
+    background-color: #545554
+}
+
+button:active {
+    background-color: #585a5f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index:50000;
+    margin-top: auto;
+}
